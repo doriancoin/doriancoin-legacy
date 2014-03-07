@@ -110,7 +110,7 @@ class CAddress : public CService
 };
 
 /** inv message data */
-static const int MAX_MONEY2 = 33333333 * COIN;
+static const int MAX_MONEY2 = 33333333;
 class CInv
 {
     public:
