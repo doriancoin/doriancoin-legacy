@@ -17,6 +17,7 @@
 #include "uint256.h"
 
 extern bool fTestNet;
+static const int64 COIN = 100000000;
 static inline unsigned short GetDefaultPort(const bool testnet = fTestNet)
 {
     return testnet ? 45883 : 28283;
